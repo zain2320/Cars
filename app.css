@@ -1,0 +1,60 @@
+p {
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cars {
+    text-decoration: underline;
+    color: black;
+    list-style: none;
+}
+
+#sidecar {
+    float : right;
+}
+
+ [src] {
+    border: 5px solid black;
+}
+
+[src="side car.webp"] {
+    width: 500px;
+    height: 550px;
+    background: cover;
+    border: 5px solid rgb(8, 8, 8);
+}
+
+ul li {
+
+    font-size: larger;
+}
+
+ul li {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#list1 ~ li {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+
+text-decoration: none;
+color: orangered;
+background: black;
+}
+
+/* pseudo elements */
+
+p::first-letter{
+    font-size: 56px;
+}
+
+p::first-line{
+    background-color: black;
+
+}
